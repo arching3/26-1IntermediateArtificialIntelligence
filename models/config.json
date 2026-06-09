@@ -1,0 +1,50 @@
+{
+  "mlp": {
+    "flatten": true,
+    "normalize": true,
+    "hidden_sizes": [
+      512,
+      256,
+      128,
+      64
+    ],
+    "activation": "relu",
+    "use_batch_norm": true,
+    "dropout_p": 0.3
+  },
+  "simple_cnn": {
+    "flatten": false,
+    "normalize": true,
+    "channels": [
+      32,
+      64,
+      128
+    ],
+    "kernel_size": 3,
+    "activation": "relu",
+    "use_batch_norm": true,
+    "dropout_p": 0.2
+  },
+  "resnet": {
+    "flatten": false,
+    "normalize": true,
+    "activation": "relu",
+    "block_counts": [
+      2,
+      2,
+      2
+    ],
+    "base_channels": 32,
+    "dropout_p": 0.1
+  },
+  "mlp_mixer": {
+    "flatten": false,
+    "normalize": true,
+    "patch_size": 4,
+    "num_blocks": 4,
+    "hidden_dim": 256,
+    "token_mlp_dim": 128,
+    "channel_mlp_dim": 512,
+    "dropout_p": 0.1
+  }
+}
