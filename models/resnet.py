@@ -95,9 +95,9 @@ class ResNet(nn.Module):
             nn.Conv2d(
                 input_channels,
                 base_channels,
-                kernel_size=3,
+                kernel_size=5,
                 stride=1,
-                padding=1,
+                padding=2,
                 bias=False,
             ),
             nn.BatchNorm2d(base_channels),
