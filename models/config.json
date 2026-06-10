@@ -5,12 +5,12 @@
     "hidden_sizes": [
       512,
       256,
+      256,
       128,
-      64
     ],
-    "activation": "relu",
+    "activation": "lekayrelu",
     "use_batch_norm": true,
-    "dropout_p": 0.3
+    "dropout_p": 0.2
   },
   "simple_cnn": {
     "flatten": false,
