@@ -6,7 +6,7 @@
       512,
       256,
       256,
-      128,
+      128
     ],
     "activation": "lekayrelu",
     "use_batch_norm": true,
