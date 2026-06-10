@@ -8,7 +8,7 @@
       256,
       128
     ],
-    "activation": "lekayrelu",
+    "activation": "leakyrelu",
     "use_batch_norm": true,
     "dropout_p": 0.2
   },
