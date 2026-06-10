@@ -40,11 +40,12 @@
   "mlp_mixer": {
     "flatten": false,
     "normalize": true,
-    "patch_size": 4,
-    "num_blocks": 4,
+    "patch_size": 8,
+    "num_blocks": 8,
     "hidden_dim": 256,
-    "token_mlp_dim": 128,
+    "token_mlp_dim": 256,
     "channel_mlp_dim": 512,
-    "dropout_p": 0.1
+    "dropout_p": 0.15,
+    "activation":"relu"
   }
 }
