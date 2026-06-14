@@ -25,10 +25,10 @@
 │   ├── activations.py          # 활성화 함수 팩토리
 │   ├── config.json             # 모델별 기본 하이퍼파라미터
 │   ├── config.py               # 모델 설정 로드·검증·저장
+│   ├── cnn.py                  # CNN 모델
 │   ├── mlp.py                  # MLP 모델
 │   ├── mlp_mixer.py            # MLP-Mixer 모델
-│   ├── resnet.py               # ResNet 모델
-│   └── simple_cnn.py           # 기본 CNN 모델
+│   └── resnet.py               # ResNet 모델
 ├── scripts/                    # 학습 및 평가 파이프라인
 │   ├── train.py                # 학습 CLI 진입점
 │   ├── trainer.py              # 학습·검증·테스트 루프
