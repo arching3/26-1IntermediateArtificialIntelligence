@@ -9,7 +9,7 @@ from torch import nn
 from models.config import available_model_names, validate_model_name
 
 
-MODEL_NAMES = ("mlp", "simple_cnn", "resnet", "mlp_mixer")
+MODEL_NAMES = ("mlp", "cnn", "resnet", "mlp_mixer")
 
 if MODEL_NAMES != available_model_names():
     raise RuntimeError("MODEL_NAMES must match the order and names in models/config.json.")
