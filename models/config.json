@@ -12,7 +12,7 @@
     "use_batch_norm": true,
     "dropout_p": 0.2
   },
-  "simple_cnn": {
+  "cnn": {
     "flatten": false,
     "normalize": true,
     "channels": [
@@ -20,7 +20,11 @@
       64,
       128
     ],
-    "kernel_size": 3,
+    "kernel_sizes": [
+      7,
+      5,
+      3
+    ],
     "activation": "relu",
     "use_batch_norm": true,
     "dropout_p": 0.2
@@ -46,6 +50,6 @@
     "token_mlp_dim": 256,
     "channel_mlp_dim": 512,
     "dropout_p": 0.15,
-    "activation":"relu"
+    "activation": "relu"
   }
 }
